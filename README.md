@@ -1,0 +1,2 @@
+# R Subsetting Bug
+This repository demonstrates a common error in R programming related to data frame subsetting. When you attempt to subset a data frame using a comparison between a character vector and a numeric column (or vice versa), you encounter a type mismatch error.  The code in `bug.R` illustrates this problem, while `bugSolution.R` shows how to effectively fix it using appropriate type casting.
